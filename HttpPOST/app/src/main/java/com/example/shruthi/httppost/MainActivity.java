@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
     public void sendGetRequest(View view) {
 
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="http://www.google.com";
+        String url ="http://192.81.216.37:5000/upload";
 
 // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
